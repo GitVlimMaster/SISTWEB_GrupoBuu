@@ -88,7 +88,7 @@
 }
 
 .rev_slider .btn.get-a-quote:hover {
-    background-color: #ff7029;
+    background-color: #57b33c;
     color: #fff
 }
 
@@ -165,7 +165,7 @@
 }
 
 .themesflat-headings.style-1 .sub-heading {
-    font-size: 16px;
+    font-size: 25px;
     line-height: 30px;
     letter-spacing: 0!important;
     margin-top: 12px;
@@ -223,7 +223,7 @@
 }
 
 .box-service:hover {
-    border-bottom: 3px solid #ff7029;
+    border-bottom: 3px solid #57b33c;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -280,7 +280,7 @@
 }
 
 .box-service.active {
-    border-bottom: 3px solid #ff7029
+    border-bottom: 3px solid #57b33c
 }
 
 .service-inner-text .icon {
@@ -369,7 +369,7 @@
 
 .service-inner-text.style-2 .icon {
     font-size: 60px;
-    color: #ff7029;
+    color: #57b33c;
     background-color: #000;
     border-radius: 5px;
     width: 0;
@@ -475,11 +475,11 @@
 }
 
 .box-service .service-read-more {
-    color: #ff7029
+    color: #57b33c
 }
 
 .box-service .service-read-more:hover {
-    color: #ff7029
+    color: #57b33c
 }
 
 .features-inner {
@@ -561,11 +561,11 @@
 }
 
 .row-experiences-content a:hover {
-    color: #ff7029
+    color: #57b33c
 }
 
 .row-experiences-content .zingbox-icon-check {
-    color: #ff7029;
+    color: #57b33c;
     padding-right: 11px;
     font-size: 20px
 }
@@ -596,7 +596,6 @@
 
 .row-experiences-bottom {
     margin: 0;
-    background-color: #57b33c;
     padding: 50px 50px 46px 36px;
     position: relative;
     top: 625px;
@@ -628,7 +627,7 @@
 
 .row-experiences-bottom .submit {
     border-radius: 60px;
-    background-color: #ff7029;
+    background-color: #57b33c;
     color: #fff;
     font-family: rajdhani, sans-serif;
     font-size: 20px;
@@ -731,7 +730,7 @@
     padding-bottom: 75px;
     padding-top: 35px;
     margin-top: -91px;
-    border-bottom: 3px solid #ff7029;
+    border-bottom: 3px solid #57b33c;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     -ms-transition: all .5s ease;
@@ -812,7 +811,7 @@
 .box-team.active .box {
     padding: 35px 50px 75px 45px;
     margin-top: -91px;
-    border-bottom: 3px solid #ff7029
+    border-bottom: 3px solid #57b33c
 }
 
 .box-team.active .box .icon-social-team {
@@ -942,7 +941,7 @@
 }
 
 .style-2 .box-team .icon-social-team .fa:hover {
-    color: #ff7029!important
+    color: #57b33c!important
 }
 
 .box-img {
@@ -965,7 +964,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    background-color: #ff7029;
+    background-color: #57b33c;
     border-radius: 5px;
     padding: 25px 201px 25px 30px;
     text-align: left;
@@ -985,7 +984,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    background-color: #ff7029;
+    background-color: #57b33c;
     border-radius: 5px;
     padding: 25px 201px 25px 30px;
     text-align: left;
@@ -1082,7 +1081,7 @@
     position: absolute;
     top: 0%;
     left: 7%;
-    background-color: #ff7029
+    background-color: #57b33c
 }
 
 .box-work .text-wrap .heading {
@@ -1108,7 +1107,7 @@
 }
 
 .box-work a.btn-read-more:hover {
-    background-color: #ff7029;
+    background-color: #57b33c;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -1209,7 +1208,7 @@
 }
 
 .style-2 .box-work a:hover {
-    color: #ff7029
+    color: #57b33c
 }
 
 .style-2 .box-work .title-number {
@@ -1334,7 +1333,7 @@
 }
 
 .row-request-right .btn-submit .submit:hover {
-    background-color: #ff7029;
+    background-color: #57b33c;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -1396,7 +1395,7 @@
 .row-question-slider .box-question {
     cursor: w-resize;
     background-color: #fff;
-    border-bottom: 3px solid #ff7029;
+    border-bottom: 3px solid #57b33c;
     margin: 35px 0 0;
     box-shadow: 0 10px 30px rgb(0 0 0/7%)
 }
@@ -1615,7 +1614,7 @@
 }
 
 .owl-carousel .item.acticle .date-articles:hover {
-    color: #ff7029
+    color: #57b33c
 }
 
 .item.acticle .box-acticle {
@@ -1690,7 +1689,7 @@
 }
 
 .item.acticle .btn-read-more:hover {
-    color: #ff7029
+    color: #57b33c
 }
 
 .item.acticle .line::before {
@@ -1858,7 +1857,7 @@
 .style-2 .item.acticle .adm a:hover,
 .style-2 .item.acticle .transport a:hover,
 .style-2 .item.acticle a:hover {
-    color: #ff7029
+    color: #57b33c
 }
 
 .style-2 .item.acticle .top-acticle .adm {
@@ -1952,7 +1951,7 @@
     border-radius: 50%;
     margin: 0 11px 0 7px;
     padding: 12px;
-    background-color: #ff7029
+    background-color: #57b33c
 }
 
 .counter-item-about-us .text-wrap {
@@ -2071,7 +2070,7 @@
 }
 
 .style-2 .about-us ul li a:hover {
-    color: #ff7029
+    color: #57b33c
 }
 
 .row-work .bg-img.style-3 {
@@ -2158,7 +2157,7 @@
 
 .style-3 .box-about-us .themesflat-counter::before {
     content: "\e979";
-    color: #ff7029;
+    color: #57b33c;
     font-family: zingbox-icon;
     position: absolute;
     font-size: 90px;
@@ -2239,7 +2238,7 @@
     position: absolute;
     top: 371px;
     left: 4.8%;
-    background-color: #ff7029;
+    background-color: #57b33c;
     padding: 30px 42px 2px 45px;
     width: 48%;
     border-radius: 5px;
@@ -2370,7 +2369,7 @@
 }
 
 .style-2 .load-more .btn-load-more:hover {
-    background-color: #ff7029
+    background-color: #57b33c
 }
 
 .margin-top-17 {
@@ -2429,8 +2428,8 @@
 
 .box-pricing.active .choose-a-plan a:hover,
 .box-pricing .choose-a-plan a:hover {
-    background-color: #ff7029;
-    border: 1px solid #ff7029
+    background-color: #57b33c;
+    border: 1px solid #57b33c
 }
 
 .box-pricing .choose-a-plan a {
@@ -2452,7 +2451,7 @@
 }
 
 .box-pricing.active .title {
-    background-color: #ff7029
+    background-color: #57b33c
 }
 
 .box-pricing.active .title .price {
@@ -2801,7 +2800,7 @@
 }
 
 .form-question .search a::after:hover {
-    color: #ff7029
+    color: #57b33c
 }
 
 .form-question .infor {
@@ -2980,12 +2979,12 @@
 .themesflat-headings .get-in-touch {
     font-size: 20px;
     font-weight: 700;
-    color: #10069F;
+    color: #0F1E5E;
     line-height: 35px
 }
 
 .themesflat-headings .get-in-touch:hover {
-    color: #ff7029
+    color: #57b33c
 }
 
 .themesflat-headings.contact .heading {
@@ -3020,7 +3019,7 @@
 }
 
 .write-a-message .socical-icon li:hover {
-    background-color: #10069F;
+    background-color: #0F1E5E;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -3059,7 +3058,7 @@
 }
 
 .form-submit .send .message-submit {
-    background-color: #10069F;
+    background-color: #0F1E5E;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -3069,7 +3068,7 @@
 }
 
 .form-submit .send .message-submit:hover {
-    background-color: #ff7029
+    background-color: #57b33c
 }
 
 .themesflat-headings.office .heading-shadown-text {
@@ -3110,7 +3109,7 @@
 .box-office .btn-view::before {
     content: "\f041";
     font-family: fontawesome, sans-serif;
-    color: #10069F;
+    color: #0F1E5E;
     margin-right: 15px;
     font-size: 20px;
     line-height: 32px;
@@ -3122,8 +3121,8 @@
 }
 
 .box-office .btn-view:hover {
-    border: 2px solid #10069F;
-    background-color: #10069F;
+    border: 2px solid #0F1E5E;
+    background-color: #0F1E5E;
     color: #fff;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;

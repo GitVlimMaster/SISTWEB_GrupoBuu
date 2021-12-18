@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <title>GRUPO BUU</title>
-    <meta name="author" content="themesflat.com">
+    <meta name="author" content="vlim.com.mx">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -19,7 +19,7 @@
     <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
 
     <link rel="shortcut icon" href="assets/img/log.png">
-    <link rel="apple-touch-icon-precomposed" href="assets\icon\icon_logo2.png">
+    <link rel="apple-touch-icon-precomposed" href="assets\icon\icon_log.png">
     <!--[if lt IE 9]>
         <script src="javascript/html5shiv.js"></script>
         <script src="javascript/respond.min.js"></script>
@@ -60,7 +60,7 @@
                             <div id="site-logo" class="clearfix">
                                 <div id="site-logo-inner">
                                     <a href="index.html" rel="home" class="main-logo">
-                                        <img src="assets\img\logo.png" alt="Zingbox" data-retina="assets/img/logo.png">
+                                        <img src="assets\img\log.png" alt="Zingbox" data-retina="assets/img/log.png" width="100" height="100">
                                     </a>
                                 </div>
                             </div>
@@ -70,10 +70,10 @@
                             <nav id="main-nav" class="main-nav">
                                 <ul id="menu-primary-menu" class="menu">
                                     <li class="menu-item menu-item-has-children">
-                                        <a class="down" href="index.php">Inicio</a>
+                                        <a class="" href="index.php">Inicio</a>
                                     </li>
                                     <li class="menu-item menu-item-has-children">
-                                        <a class="active down" href="suelas.php">Suelas</a>
+                                        <a class="" href="tego.php">Suelas</a>
                                     </li>
                                     <li class="menu-item menu-item-has-children">
                                         <a class="down" href="#">Seguridad</a>
@@ -106,6 +106,6 @@
                                     </li>
                                 </ul>
                             </nav>
-                            </div>
                         </div>
+                    </div>
                 </header>

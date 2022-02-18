@@ -1,0 +1,1185 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>GoGreen</title>
+	<meta charset="utf-8" />
+	<!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <![endif]-->
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="css\bootstrap.min.css" />
+	<link rel="stylesheet" href="css\animations.css" />
+	<link rel="stylesheet" href="css\fonts.css" />
+	<link rel="stylesheet" href="css\main.css" class="color-switcher-link" />
+	<script src="js\vendor\modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+      <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+      <div class="bg-danger text-center">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/" class="highlight"
+          >upgrade your browser</a
+        >
+        to improve your experience.
+      </div>
+    <![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">
+				<i class="rt-icon2-cross2"></i>
+			</span>
+		</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform search-form form-inline" action="./">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword"
+						id="modal-search-input" />
+				</div>
+				<button type="submit" class="theme_button">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls with_padding">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+		</div>
+	</div>
+	<!-- eof .modal -->
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+			<!-- template sections -->
+
+			<section class="page_topline cs two_color section_padding_top_5 section_padding_bottom_5 table_section">
+				<div class="container-fluid">
+					<div class="row">
+
+						
+						<div class="col-sm-6 text-center text-sm-left">
+							<p class="divided-content">
+								<span class="medium black">
+									Welcome to Electronics Recycling
+								</span>
+								<a href="#">How to Find Us</a>
+								<a href="#">Give Feedback</a>
+							</p>
+						</div>
+						<div class="col-sm-6 text-center text-sm-right">
+							<div class="widget widget_search">
+								<form method="get" class="searchform form-inline" action="./">
+									<div class="form-group-wrap">
+										<div class="form-group margin_0">
+											<label class="sr-only" for="topline-search">Search for:</label>
+											<input id="topline-search" type="text" value="" name="search"
+												class="form-control" placeholder="Search Keyword" />
+										</div>
+										<button type="submit" class="theme_button">Search</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<header class="page_header header_white toggler_xs_right section_padding_20">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12 display_table">
+							<div class="header_left_logo display_table_cell">
+								<a href="index.html" class="logo top_logo">
+									<img src="img\log.png" alt="" />
+									<span class="logo_text">
+										<span class="big">Grupo </span>
+										<span class="big">BUU </span>
+									</span>
+								</a>
+							</div>
+
+							<div class="header_mainmenu display_table_cell text-center">
+								<!-- main nav start -->
+								<nav class="mainmenu_wrapper">
+									<ul class="mainmenu nav sf-menu">
+										<li class="active">
+											<a href="index.html">Inicio</a>
+										</li>
+
+										<!-- eof pages -->
+
+										<!-- productos de hule -->
+										<li>
+											<a href="blog-right.html">Productos de hule</a>
+											<ul>
+												<li>
+													<a href="gallery-carousel.html">Suela</a>
+													<ul>
+														<li>
+															<a href="blog-single-video-right.html">Brallano</a>
+														</li>
+														<li>
+															<a href="blog-single-video-left.html">Feiel</a>
+														</li>
+														<li>
+															<a href="blog-single-video-full.html">Dian</a>
+														</li>
+													</ul>
+												</li>
+
+												<li>
+													<a href="blog-single-video-right.html">Seguridad</a>
+													<ul>
+														<li>
+															<a href="blog-single-video-right.html">Calzas</a>
+														</li>
+														<li>
+															<a href="blog-single-video-left.html">Esquineros</a>
+														</li>
+														<li>
+															<a href="blog-single-video-full.html">Tapete sanitizante</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="blog-single-video-right.html">Vialidad</a>
+													<ul>
+														<li>
+															<a href="blog-single-video-right.html">Tapetes de
+																estacionamiento</a>
+														</li>
+														<li>
+															<a href="blog-single-video-left.html">Reductores de
+																velocidad</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="blog-single-video-right.html">Mascotas</a>
+													<ul>
+														<li>
+															<a href="blog-single-video-right.html">Tapetes
+																entrenador</a>
+														</li>
+														<li>
+															<a href="blog-single-video-left.html">Reductores arenero</a>
+														</li>
+														<li>
+															<a href="blog-single-video-right.html">Tapetes
+																trasportador</a>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<!-- productos de hule -->
+										<!-- Servicios-->
+										<li>
+											<a href="blog-right.html">Servicios</a>
+											<ul>
+												<li>
+													<a href="blog-single-video-right.html">Recolección de residuos</a>
+													<ul>
+														<li>
+															<a href="blog-single-video-right.html">Hule</a>
+														</li>
+														<li>
+															<a href="blog-single-video-left.html">Plastico</a>
+														</li>
+														<li>
+															<a href="blog-single-video-full.html">Cartón</a>
+														</li>
+														<li>
+															<a href="blog-single-video-full.html">Madera</a>
+														</li>
+														<li>
+															<a href="blog-single-video-full.html">Vidrio</a>
+														</li>
+														<li>
+															<a href="blog-single-video-full.html">Chatarra</a>
+														</li>
+													</ul>
+												</li>
+
+												<li>
+													<a href="blog-single-video-right.html">Destrucció y
+														desnaturalización</a>
+												</li>
+												<li>
+													<a href="blog-single-video-right.html">Molienda</a>
+													<ul>
+														<li>
+															<a href="blog-single-video-right.html">Plasticos</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="blog-single-video-right.html">Compra/Venta de plasticos</a>
+													<ul>
+														<li>
+															<a href="blog-single-video-right.html">ABS</a>
+														</li>
+														<li>
+															<a href="blog-single-video-left.html">ASA</a>
+														</li>
+														<li>
+															<a href="blog-single-video-right.html">NYLAN</a>
+														</li>
+														<li>
+															<a href="blog-single-video-right.html">PP</a>
+														</li>
+														<li>
+															<a href="blog-single-video-right.html">TPO</a>
+														</li>
+														<li>
+															<a href="blog-single-video-right.html">PC</a>
+														</li>
+													</ul>
+												</li>
+
+												<li>
+													<a href="blog-single-video-right.html">Renta de maquinaria</a>
+												</li>
+												<li>
+													<a href="blog-single-video-right.html">Renta de transporte</a>
+												</li>
+												<li>
+													<a href="blog-single-video-right.html">Permisos</a>
+												</li>
+											</ul>
+										</li>
+										<!-- Servicios-->
+
+										<!-- contacts -->
+										<li>
+											<a href="contact.html">Contact</a>
+											<ul>
+												<li>
+													<a href="contact.html">Contact 1</a>
+												</li>
+												<li>
+													<a href="contact2.html">Contact 2</a>
+												</li>
+												<li>
+													<a href="contact3.html">Contact 3</a>
+												</li>
+												<li>
+													<a href="contact4.html">Contact 4</a>
+												</li>
+											</ul>
+										</li>
+										<!-- eof contacts -->
+									</ul>
+								</nav>
+								<!-- eof main nav -->
+								<!-- header toggler -->
+								<span class="toggle_menu">
+									<span></span>
+								</span>
+							</div>
+
+							<div class="header_right_buttons display_table_cell text-right hidden-xs">
+								<div class="darklinks">
+									<a href="#" class="social-icon border-icon rounded-icon soc-facebook"></a>
+									<a href="#" class="social-icon border-icon rounded-icon soc-twitter"></a>
+									<a href="#" class="social-icon border-icon rounded-icon soc-google"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<section class="page_breadcrumbs ds parallax section_padding_top_65 section_padding_bottom_65">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2 class="highlight">Suelas Tego</h2>
+							<ol class="breadcrumb darklinks">
+								<li>
+									<a href="index.html"> Home </a>
+								</li>
+								<!-- <li>
+									<a href="#">Blog</a>
+								</li>
+								<li class="active">Video Post Page</li> -->
+							</ol>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="ls section_padding_top_100 section_padding_bottom_75">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="intro_section ds ms blog_slider bottommargin_60">
+								<div class="flexslider" data-nav="false">
+									<ul class="slides">
+
+										<li>
+											<img src="img/suela1.jpg" alt="">
+											<div class="container">
+												<div class="row">
+													<div class="col-sm-12 text-center">
+														<div class="slide_description_wrapper">
+															<div class="slide_description">
+																<div class="intro-layer" data-animation="fadeInRight">
+																	
+																</div>
+																<div class="intro-layer" data-animation="fadeInRight">
+																	<h2>
+																		¿QUIENES SOMOS?
+																	</h2>
+																</div>
+																<div class="intro-layer" style="color: aliceblue;" data-animation="fadeInRight">
+																	<p>Somos una empresa desde hace 30 años fabricadora de artículos de hule con especialización en suelas para calzado táctico, laboral, vaquero, ropper. En la cuales podemos adecuarnos a las necesidades de nuestros clientes y obteniendo su satisfacción y recomendación por nuestro trabajo y crecimiento optimo en nuestros procesos e nuestra mejora continua.</p>
+																</div>
+															</div>
+															<!-- eof .slide_description -->
+														</div>
+														<!-- eof .slide_description_wrapper -->
+													</div>
+													<!-- eof .col-* -->
+												</div>
+												<!-- eof .row -->
+											</div>
+											<!-- eof .container -->
+										</li>
+
+										<li>
+											<img src="img/textura.jpg" alt="">
+											<div class="container">
+												<div class="row">
+													<div class="col-sm-12 text-center">
+														<div class="slide_description_wrapper">
+															<div class="slide_description">
+																<div class="intro-layer" data-animation="fadeInRight">
+																	
+																</div>
+																<div class="intro-layer" style="color: aliceblue;" data-animation="fadeInRight">
+																	<h2>
+																		Misión
+																	</h2>
+																</div>
+																<div class="intro-layer" style="color: rgb(253, 252, 252);" data-animation="fadeInRight">
+																	<p>Proveer al mercado con nuestros desarrollos y productos vanguardistas de alta calidad y con distinción en nuestros servicios.</p>
+																</div>
+															
+															</div>
+															<!-- eof .slide_description -->
+														</div>
+														<!-- eof .slide_description_wrapper -->
+													</div>
+													<!-- eof .col-* -->
+												</div>
+												<!-- eof .row -->
+											</div>
+											<!-- eof .container -->
+										</li>
+										<li>
+											<img src="img/textura.jpg" alt="">
+											<div class="container">
+												<div class="row">
+													<div class="col-sm-12 text-center">
+														<div class="slide_description_wrapper">
+															<div class="slide_description">
+																<div class="intro-layer" data-animation="fadeInRight">
+																	
+																</div>
+															>
+																<div class="intro-layer" style="color: rgb(253, 252, 252);" data-animation="fadeInRight">
+																	<h2>
+																		Visión
+																	</h2>
+																</div>
+																<div class="intro-layer" style="color: rgb(255, 255, 255);" data-animation="fadeInRight">
+																	<p>Consolidarnos como empresa líder en el sector suelero-hulero ofreciendo suelas, tacones, tapas, tapetes de la mas alta calidad.</p>
+																</div>
+															</div>
+															<!-- eof .slide_description -->
+														</div>
+														<!-- eof .slide_description_wrapper -->
+													</div>
+													<!-- eof .col-* -->
+												</div>
+												<!-- eof .row -->
+											</div>
+											<!-- eof .container -->
+										</li>
+
+										<li>
+											<img src="img/polimero.jpg" alt="">
+											<div class="container">
+												<div class="row">
+													<div class="col-sm-12 text-center">
+														<div class="slide_description_wrapper">
+															<div class="slide_description">
+																<div class="intro-layer" data-animation="fadeInRight">
+																	
+																</div>
+																<div class="intro-layer" data-animation="fadeInRight">
+																	<h2>
+																		VALORES
+																	</h2>
+																</div>
+																<div class="intro-layer" style="color: aliceblue; font-size: 20px;" data-animation="fadeInRight">
+																
+																		<ul>- Responsabilidad</ul>
+																		<ul>- Compromiso</ul>
+																		<ul>- Emprendimiento</ul>
+																		<ul>- Proactvidad</ul>
+																		<ul>- Seguridad</ul>
+																		<ul>- Servicio</ul>
+																		<ul>- Respeto</ul>
+																		<ul>- Profesionalismo</ul>
+																		
+																
+																</div>
+															</div>
+															<!-- eof .slide_description -->
+														</div>
+														<!-- eof .slide_description_wrapper -->
+													</div>
+													<!-- eof .col-* -->
+												</div>
+												<!-- eof .row -->
+											</div>
+											<!-- eof .container -->
+										</li>
+
+									</ul>
+								</div>
+								<!-- eof flexslider -->
+							</div>
+						</div>
+						<div class="col-md-10 col-md-push-1">
+							<div id="gallery-owl-carousel" class="owl-carousel dots-center" data-dots="true"
+								data-items="1" data-responsive-lg="1" data-responsive-md="1" data-responsive-sm="1"
+								data-responsive-xs="1">
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/diana_bicolor.png" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/diana_bicolor.png"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Diana bicolor
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/ducati.png" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/ducati.png"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Ducati
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/diana.png" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/diana.png"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Diana
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/ducati_amabar.png" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/ducati_amabar.png"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Ducati ámbar 
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/zig_zag.png" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/zig_zag.png"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Zig zag 
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/bran.png" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/bran.png"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Bran
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/eclipse.PNG" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/eclipse.PNG"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Eclipse
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/kater.png" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/kater.png"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Kater
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/fell_bicolor.png" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/fell_bicolor.png"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Fell Bicolor
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/kater2.png" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/kater2.png"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Kater
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/carolina_naranja.PNG" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/carolina_naranja.PNG"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Carolina naranja 
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/botin.PNG" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/botin.PNG"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Botín
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+
+
+
+
+							<!-- aquiiii-->
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/ecologica.PNG" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/ecologica.PNG"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Ecologíca 
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/industrial.PNG" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/industrial.PNG"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Industrial
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/san_juan.PNG" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/san_juan.PNG"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													San Juan 
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/huella.PNG" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/huella.PNG"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Huella
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/vibora.PNG" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/vibora.PNG"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Víbora
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/dockers.PNG" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/dockers.PNG"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Dockers
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+								<article
+									class="vertical-item content-padding post format-standard with_background rounded">
+									<div class="item-media">
+										<img src="img/tego/ch_vibora.PNG" alt="" />
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+													href="img/tego/ch_vibora.PNG"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+													Ch Víbora
+												</a>
+											</h4>
+										</header>
+										<p>
+											Vivamus enim justo, suscipit laoreet odio id, interdum
+											egestas sapien. Phasellus ultricies felis lectus, sed
+											condimentum libero condimentum eget.
+										</p>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<footer class="page_contact ds ms parallax section_padding_top_50 section_padding_bottom_30 columns_padding_25" data-stellar-background-ratio="0.5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 text-center">
+                            <div class="widget">
+                                <a href="index.html" class="logo bg_logo bottommargin_25">
+                                    <img src="images\log.png" alt="" />
+                                    <span class="logo_text">
+										<span class="big">Grupo</span>
+                                    <span class="small-text">BUU</span>
+                                    </span>
+                                </a>
+                                <p>
+                                    Family-owned company from San Diego proudly serving individuals and businesses in Southern California.
+                                </p>
+                                <div class="line-height-thin">
+                                    <div class="media small-teaser inline-block margin_0">
+                                        <div class="media-left media-middle">
+                                            <i class="fa fa-map-marker highlight2" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body media-middle grey">
+                                            140 Horizon Circle, San Diego, CA
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="media small-teaser inline-block margin_0">
+                                        <div class="media-left media-middle">
+                                            <i class="fa fa-phone highlight2" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body media-middle grey">
+                                            01 123 456 789
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="media small-teaser inline-block margin_0">
+                                        <div class="media-left media-middle">
+                                            <i class="fa fa-map-marker highlight2" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body media-middle highlightlinks">
+                                            <a href="#"><span class="__cf_email__"
+													data-cfemail="ed8a828a9f888883ad9e989d9d829f99c38e8280">[email&#160;protected]</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="darklinks topmargin_20">
+                                    <a href="#" class="social-icon border-icon rounded-icon soc-facebook"></a>
+                                    <a href="#" class="social-icon border-icon rounded-icon soc-twitter"></a>
+                                    <a href="#" class="social-icon border-icon rounded-icon soc-google"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 text-center">
+                            <div class="widget widget_contact topmargin_10">
+                                <h3>Contact Form</h3>
+                                <form class="contact-form topmargin_45" method="post" action="./">
+                                    <p class="contact-form-name">
+                                        <label for="footer-name">Name <span class="required">*</span></label>
+                                        <input type="text" aria-required="true" size="30" value="" name="name" id="footer-name" class="form-control text-center" placeholder="Full Name" />
+                                    </p>
+                                    <p class="contact-form-email">
+                                        <label for="footer-email">Email <span class="required">*</span></label>
+                                        <input type="email" aria-required="true" size="30" value="" name="email" id="footer-email" class="form-control text-center" placeholder="Email Address" />
+                                    </p>
+                                    <p class="contact-form-message">
+                                        <label for="footer-message">Message</label>
+                                        <textarea aria-required="true" rows="3" cols="45" name="message" id="footer-message" class="form-control text-center" placeholder="Message"></textarea>
+                                    </p>
+                                    <p class="footer_contact-form-submit topmargin_30">
+                                        <button type="submit" id="footer_contact_form_submit" name="contact_submit" class="theme_button color1 wide_button">
+											Send Message
+										</button>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 text-center">
+                            <div class="widget widget_recent_entries topmargin_10">
+                                <h3 class="widget-title">Recent News</h3>
+                                <ul class="greylinks">
+                                    <li>
+                                        <p class="margin_0">
+                                            <a href="blog-single-right.html">
+												At vero eos et accusam et justo duo dolores et ea
+												rebum clita kasd
+											</a>
+                                        </p>
+                                        <span class="entry-date highlight">
+											<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
+												March 9, 2017
+											</time>
+										</span>
+                                    </li>
+                                    <li>
+                                        <p class="margin_0">
+                                            <a href="blog-single-right.html">
+												Gubergren, no sea takimata sanctus est lorem ipsum
+												dolor sit amet
+											</a>
+                                        </p>
+                                        <span class="entry-date highlight">
+											<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
+												March 9, 2017
+											</time>
+										</span>
+                                    </li>
+                                    <li>
+                                        <p class="margin_0">
+                                            <a href="blog-single-right.html">
+												Lorem ipsum dolor sit amet, consetetur
+											</a>
+                                        </p>
+                                        <span class="entry-date highlight">
+											<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
+												March 9, 2017
+											</time>
+										</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+			<section class="ls page_copyright section_padding_15">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p class="small-text small-spacing grey">
+								&copy; Copyright 2017 All Rights Reserved
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src="js\compressed.js"></script>
+	<script src="js\main.js"></script>
+	<script src="js\switcher.js"></script>
+
+	<!-- Google Map Script -->
+	<script type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0pr5xCHpaTGv12l73IExOHDJisBP2FK4"></script>
+</body>
+
+</html>

@@ -1,0 +1,593 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>GoGreen</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="css\bootstrap.min.css">
+	<link rel="stylesheet" href="css\animations.css">
+	<link rel="stylesheet" href="css\fonts.css">
+	<link rel="stylesheet" href="css\main.css" class="color-switcher-link">
+	<link rel="stylesheet" href="css\shop.css" class="color-switcher-link">
+	<script src="js\vendor\modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">
+				<i class="rt-icon2-cross2"></i>
+			</span>
+		</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform search-form form-inline" action="./">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="theme_button">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls with_padding">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+
+		</div>
+	</div>
+	<!-- eof .modal -->
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- template sections -->
+
+			<header class="page_header header_white toggler_xs_right section_padding_20">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12 display_table">
+							<div class="header_left_logo display_table_cell">
+								<a href="index.html" class="logo top_logo">
+									<img src="img\log.png" alt="" />
+									<span class="logo_text">
+										<span class="big">Grupo </span>
+										<span class="big">BUU </span>
+									</span>
+								</a>
+							</div>
+
+							<div class="header_mainmenu display_table_cell text-center">
+								<!-- main nav start -->
+								<nav class="mainmenu_wrapper">
+									<ul class="mainmenu nav sf-menu">
+										<li class="active">
+											<a href="index.html">Inicio</a>
+										</li>
+
+										<!-- eof pages -->
+
+										<!-- productos de hule -->
+										<li>
+											<a href="blog-right.html">Productos de hule</a>
+											<ul>
+												<li>
+													<a href="gallery-carousel.html">Suela</a>
+													<ul>
+														<li>
+															<a href="blog-single-video-right.html">Brallano</a>
+														</li>
+														<li>
+															<a href="blog-single-video-left.html">Feiel</a>
+														</li>
+														<li>
+															<a href="blog-single-video-full.html">Dian</a>
+														</li>
+													</ul>
+												</li>
+
+												<li>
+													<a href="blog-single-video-right.html">Seguridad</a>
+													<ul>
+														<li>
+															<a href="blog-single-video-right.html">Calzas</a>
+														</li>
+														<li>
+															<a href="blog-single-video-left.html">Esquineros</a>
+														</li>
+														<li>
+															<a href="blog-single-video-full.html">Tapete sanitizante</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="blog-single-video-right.html">Vialidad</a>
+													<ul>
+														<li>
+															<a href="blog-single-video-right.html">Tapetes de
+																estacionamiento</a>
+														</li>
+														<li>
+															<a href="blog-single-video-left.html">Reductores de
+																velocidad</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="blog-single-video-right.html">Mascotas</a>
+													<ul>
+														<li>
+															<a href="blog-single-video-right.html">Tapetes
+																entrenador</a>
+														</li>
+														<li>
+															<a href="blog-single-video-left.html">Reductores arenero</a>
+														</li>
+														<li>
+															<a href="blog-single-video-right.html">Tapetes
+																trasportador</a>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<!-- productos de hule -->
+										<!-- Servicios-->
+										<li>
+											<a href="blog-right.html">Servicios</a>
+											<ul>
+												<li>
+													<a href="blog-single-video-right.html">Recolección de residuos</a>
+													<ul>
+														<li>
+															<a href="blog-single-video-right.html">Hule</a>
+														</li>
+														<li>
+															<a href="blog-single-video-left.html">Plastico</a>
+														</li>
+														<li>
+															<a href="blog-single-video-full.html">Cartón</a>
+														</li>
+														<li>
+															<a href="blog-single-video-full.html">Madera</a>
+														</li>
+														<li>
+															<a href="blog-single-video-full.html">Vidrio</a>
+														</li>
+														<li>
+															<a href="blog-single-video-full.html">Chatarra</a>
+														</li>
+													</ul>
+												</li>
+
+												<li>
+													<a href="blog-single-video-right.html">Destrucció y
+														desnaturalización</a>
+												</li>
+												<li>
+													<a href="blog-single-video-right.html">Molienda</a>
+													<ul>
+														<li>
+															<a href="blog-single-video-right.html">Plasticos</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="blog-single-video-right.html">Compra/Venta de plasticos</a>
+													<ul>
+														<li>
+															<a href="blog-single-video-right.html">ABS</a>
+														</li>
+														<li>
+															<a href="blog-single-video-left.html">ASA</a>
+														</li>
+														<li>
+															<a href="blog-single-video-right.html">NYLAN</a>
+														</li>
+														<li>
+															<a href="blog-single-video-right.html">PP</a>
+														</li>
+														<li>
+															<a href="blog-single-video-right.html">TPO</a>
+														</li>
+														<li>
+															<a href="blog-single-video-right.html">PC</a>
+														</li>
+													</ul>
+												</li>
+
+												<li>
+													<a href="blog-single-video-right.html">Renta de maquinaria</a>
+												</li>
+												<li>
+													<a href="blog-single-video-right.html">Renta de transporte</a>
+												</li>
+												<li>
+													<a href="blog-single-video-right.html">Permisos</a>
+												</li>
+											</ul>
+										</li>
+										<!-- Servicios-->
+
+										<!-- contacts -->
+										<li>
+											<a href="contact.html">Contact</a>
+											<ul>
+												<li>
+													<a href="contact.html">Contact 1</a>
+												</li>
+												<li>
+													<a href="contact2.html">Contact 2</a>
+												</li>
+												<li>
+													<a href="contact3.html">Contact 3</a>
+												</li>
+												<li>
+													<a href="contact4.html">Contact 4</a>
+												</li>
+											</ul>
+										</li>
+										<!-- eof contacts -->
+									</ul>
+								</nav>
+								<!-- eof main nav -->
+								<!-- header toggler -->
+								<span class="toggle_menu">
+									<span></span>
+								</span>
+							</div>
+
+							<div class="header_right_buttons display_table_cell text-right hidden-xs">
+								<div class="darklinks">
+									<a href="#" class="social-icon border-icon rounded-icon soc-facebook"></a>
+									<a href="#" class="social-icon border-icon rounded-icon soc-twitter"></a>
+									<a href="#" class="social-icon border-icon rounded-icon soc-google"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+
+			<section class="page_breadcrumbs ds parallax section_padding_top_65 section_padding_bottom_65">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2 class="highlight">BUUPETS</h2>
+							<ol class="breadcrumb darklinks">
+								<li>
+									<a href="index.html">
+							Home
+						</a>
+								</li>
+								
+							</ol>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="ls section_padding_top_100 section_padding_bottom_100 columns_padding_25">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-sm-12">
+
+							<div class="shop-sorting">
+
+								<form class="form-inline content-justify vertical-center content-margins">
+
+									<div class="fontsize_20">
+										<!-- 1-9 of 50 results -->
+									</div>
+
+
+									<div class="form-group select-group">
+										<select aria-required="true" id="date" name="date" class="choice empty form-control">
+											<option value="" disabled="" selected="" data-default="">Default Sorting</option>
+											<option value="value">by Value</option>
+											<option value="date">by Date</option>
+											<option value="popular">by Popularity</option>
+										</select>
+										<i class="fa fa-angle-down theme_button" aria-hidden="true"></i>
+									</div>
+
+								</form>
+
+							</div>
+
+
+							<div class="columns-3">
+
+								<ul id="products" class="products list-unstyled">
+									<li class="product type-product">
+										<div class="vertical-item">
+											<div class="item-media with_background bottommargin_30">
+												<img src="img/buupets/BP101.PNG">
+											</div>
+											<div class="item-content">
+												<h4 class="poppins bottommargin_10">
+													<a href="shop-product-right.html">Tapete aerenero para gato</a>
+												</h4>
+												<p class="price">
+													Dimensiones: 58 x 46 x 5.2cm <br>
+													Capacidades de soporte: 4.5 Litros <br>
+													Peso: 3 kg* <br>
+													Material: 100% Hule <br>
+													Durabilidad: 3 años <br>
+													*Peso aproximado puede variar <br> <br><br>
+									</p> 
+												<a href="img/buupets/Tapete aerenero para gato.pdf" class="theme_button color1" target="_blank">Ficha Técnica</a>
+											</div>
+										</div>
+									</li>
+
+									<li class="product type-product">
+										<div class="vertical-item">
+											<div class="item-media with_background bottommargin_30">
+												<img src="img/buupets/BP102.PNG" alt="">
+											</div>
+											<div class="item-content">
+												<h4 class="poppins bottommargin_10">
+													<a href="shop-product-right.html">Tapete entrenador para mascota</a>
+												</h4>
+												<p class="price">
+													Dimensiones: 61 x 41 x 2.3 cm <br>
+													Capacidades de soporte: 2 Litros <br>
+													Peso: 2 kg* <br>
+													Material: 100% Hule <br>
+													Durabilidad: 3 años ** <br>
+													*Peso aproximado puede variar <br>
+													**Indispensable cambiar alfombra de pasto sintético cuando sea necesario <br>
+									</p>
+									<a href="img/buupets/Tapete entrenador para mascota.pdf" class="theme_button color1" target="_blank">Ficha Técnica</a>
+								</div>
+										</div>
+									</li>
+
+									<li class="product type-product">
+										<div class="vertical-item">
+											<div class="item-media with_background bottommargin_30">
+												<img src="img/buupets/BP103.PNG" alt="">
+											</div>
+											<div class="item-content">
+												<h4 class="poppins bottommargin_10">
+													<a href="shop-product-right.html">Tapete transportador</a>
+												</h4>
+												<p class="price">
+													Dimensiones: 61 x 41 x 2.3 cm <br>
+													Capacidades de soporte: 2 Litros <br>
+													Peso: 1.8 kg* <br>
+													Material: 100% Hule <br>
+													Durabilidad: 3 años <br>
+													*Peso aproximado puede variar <br> <br><br>
+									</p>
+									<a href="img/buupets/Tapete transportador.pdf" class="theme_button color1" target="_blank">Ficha Técnica</a>
+								</div>
+										</div>
+									</li>
+
+									
+
+								</ul>
+
+							</div>
+							<!-- eof .columns-* -->
+
+
+							<div class="row">
+								<div class="col-sm-12 text-center">
+									<ul class="pagination highlightlinks">
+										<li class="disabled">
+											<a href="#">
+												<span class="sr-only">Prev</span>
+												<i class="fa fa-angle-left" aria-hidden="true"></i>
+											</a>
+										</li>
+										<li class="active"><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li>
+											<a href="#">
+												<span class="sr-only">Next</span>
+												<i class="fa fa-angle-right" aria-hidden="true"></i>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<footer class="page_contact ds ms parallax section_padding_top_50 section_padding_bottom_30 columns_padding_25" data-stellar-background-ratio="0.5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 text-center">
+                            <div class="widget">
+                                <a href="index.html" class="logo bg_logo bottommargin_25">
+                                    <img src="images\log.png" alt="" />
+                                    <span class="logo_text">
+										<span class="big">Grupo</span>
+                                    <span class="small-text">BUU</span>
+                                    </span>
+                                </a>
+                                <p>
+                                    Family-owned company from San Diego proudly serving individuals and businesses in Southern California.
+                                </p>
+                                <div class="line-height-thin">
+                                    <div class="media small-teaser inline-block margin_0">
+                                        <div class="media-left media-middle">
+                                            <i class="fa fa-map-marker highlight2" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body media-middle grey">
+                                            140 Horizon Circle, San Diego, CA
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="media small-teaser inline-block margin_0">
+                                        <div class="media-left media-middle">
+                                            <i class="fa fa-phone highlight2" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body media-middle grey">
+                                            01 123 456 789
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="media small-teaser inline-block margin_0">
+                                        <div class="media-left media-middle">
+                                            <i class="fa fa-map-marker highlight2" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body media-middle highlightlinks">
+                                            <a href="#"><span class="__cf_email__"
+													data-cfemail="ed8a828a9f888883ad9e989d9d829f99c38e8280">[email&#160;protected]</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="darklinks topmargin_20">
+                                    <a href="#" class="social-icon border-icon rounded-icon soc-facebook"></a>
+                                    <a href="#" class="social-icon border-icon rounded-icon soc-twitter"></a>
+                                    <a href="#" class="social-icon border-icon rounded-icon soc-google"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 text-center">
+                            <div class="widget widget_contact topmargin_10">
+                                <h3>Contact Form</h3>
+                                <form class="contact-form topmargin_45" method="post" action="./">
+                                    <p class="contact-form-name">
+                                        <label for="footer-name">Name <span class="required">*</span></label>
+                                        <input type="text" aria-required="true" size="30" value="" name="name" id="footer-name" class="form-control text-center" placeholder="Full Name" />
+                                    </p>
+                                    <p class="contact-form-email">
+                                        <label for="footer-email">Email <span class="required">*</span></label>
+                                        <input type="email" aria-required="true" size="30" value="" name="email" id="footer-email" class="form-control text-center" placeholder="Email Address" />
+                                    </p>
+                                    <p class="contact-form-message">
+                                        <label for="footer-message">Message</label>
+                                        <textarea aria-required="true" rows="3" cols="45" name="message" id="footer-message" class="form-control text-center" placeholder="Message"></textarea>
+                                    </p>
+                                    <p class="footer_contact-form-submit topmargin_30">
+                                        <button type="submit" id="footer_contact_form_submit" name="contact_submit" class="theme_button color1 wide_button">
+											Send Message
+										</button>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 text-center">
+                            <div class="widget widget_recent_entries topmargin_10">
+                                <h3 class="widget-title">Recent News</h3>
+                                <ul class="greylinks">
+                                    <li>
+                                        <p class="margin_0">
+                                            <a href="blog-single-right.html">
+												At vero eos et accusam et justo duo dolores et ea
+												rebum clita kasd
+											</a>
+                                        </p>
+                                        <span class="entry-date highlight">
+											<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
+												March 9, 2017
+											</time>
+										</span>
+                                    </li>
+                                    <li>
+                                        <p class="margin_0">
+                                            <a href="blog-single-right.html">
+												Gubergren, no sea takimata sanctus est lorem ipsum
+												dolor sit amet
+											</a>
+                                        </p>
+                                        <span class="entry-date highlight">
+											<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
+												March 9, 2017
+											</time>
+										</span>
+                                    </li>
+                                    <li>
+                                        <p class="margin_0">
+                                            <a href="blog-single-right.html">
+												Lorem ipsum dolor sit amet, consetetur
+											</a>
+                                        </p>
+                                        <span class="entry-date highlight">
+											<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
+												March 9, 2017
+											</time>
+										</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+			<section class="ls page_copyright section_padding_15">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p class="small-text small-spacing grey">&copy; Copyright 2017 All Rights Reserved</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js\compressed.js"></script>
+	<script src="js\main.js"></script>
+	<script src="js\switcher.js"></script>
+
+</body>
+
+</html>

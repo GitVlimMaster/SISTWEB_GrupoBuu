@@ -3443,7 +3443,7 @@ header [class*="col-"],
   background-color: #78bf4d;
 }
 .parallax.ds:after {
-  
+  background-color: #20252b;
   opacity: 0.8;
 }
 .parallax.ds.ms:after {
@@ -11582,4 +11582,7 @@ a.color-icon.border-icon:hover {
 }
 .checkbox-slider--b-flat input + span:before {
   box-shadow: none;
+}
+video {
+  width: 100%;
 }

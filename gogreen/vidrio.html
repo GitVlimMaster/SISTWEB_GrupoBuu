@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <title>GoGreen</title>
+    <meta charset="utf-8">
+    <!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="css\animations.css">
+    <link rel="stylesheet" href="css\fonts.css">
+    <link rel="stylesheet" href="css\main.css" class="color-switcher-link">
+    <script src="js\vendor\modernizr-2.6.2.min.js"></script>
+
+    <!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+    <!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+    <div class="preloader">
+        <div class="preloader_image"></div>
+    </div>
+
+    <!-- search modal -->
+    <div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">
+				<i class="rt-icon2-cross2"></i>
+			</span>
+		</button>
+        <div class="widget widget_search">
+            <form method="get" class="searchform search-form form-inline" action="./">
+                <div class="form-group">
+                    <input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+                </div>
+                <button type="submit" class="theme_button">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Unyson messages modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+        <div class="fw-messages-wrap ls with_padding">
+            <!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+            <!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+
+        </div>
+    </div>
+    <!-- eof .modal -->
+
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+        <div id="box_wrapper">
+
+            <!-- template sections -->
+
+            <section class="page_topline cs two_color section_padding_top_5 section_padding_bottom_5 table_section">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6 text-center text-sm-left">
+                            <p class="divided-content">
+                                <span class="medium black">
+						Welcome 
+					</span>
+                                <!-- <a href="#">How to Find Us</a>
+                                <a href="#">Give Feedback</a> -->
+                            </p>
+                        </div>
+                        <div class="col-sm-6 text-center text-sm-right">
+
+                            <div class="widget widget_search">
+                                <form method="get" class="searchform form-inline" action="./">
+                                    <div class="form-group-wrap">
+                                        <div class="form-group margin_0">
+                                            <label class="sr-only" for="topline-search">Search for:</label>
+                                            <input id="topline-search" type="text" value="" name="search" class="form-control" placeholder="Search Keyword">
+                                        </div>
+                                        <button type="submit" class="theme_button">Search</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <header class="page_header header_white toggler_xs_right section_padding_20">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12 display_table">
+                            <div class="header_left_logo display_table_cell">
+                                <a href="index.html" class="logo top_logo">
+                                    <img src="img\log.png" alt="" />
+                                    <span class="logo_text">
+										<span class="big">Grupo </span>
+                                    <span class="big">BUU </span>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <div class="header_mainmenu display_table_cell text-center">
+                                <!-- main nav start -->
+                                <nav class="mainmenu_wrapper">
+                                    <ul class="mainmenu nav sf-menu">
+                                        <li class="active">
+                                            <a href="index.html">Inicio</a>
+                                        </li>
+
+                                        <!-- eof pages -->
+
+                                        <!-- productos de hule -->
+                                        <li>
+                                            <a href="blog-right.html">Productos de hule</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="gallery-carousel.html">Suela</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="blog-single-video-right.html">Brallano</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="blog-single-video-left.html">Feiel</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="blog-single-video-full.html">Dian</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li>
+                                                    <a href="blog-single-video-right.html">Seguridad</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="blog-single-video-right.html">Calzas</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="blog-single-video-left.html">Esquineros</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="blog-single-video-full.html">Tapete sanitizante</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="blog-single-video-right.html">Vialidad</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="blog-single-video-right.html">Tapetes de
+																estacionamiento</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="blog-single-video-left.html">Reductores de
+																velocidad</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="shop-right.html">Mascotas</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="blog-single-video-right.html">Tapetes
+																entrenador</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="blog-single-video-left.html">Reductores arenero</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="blog-single-video-right.html">Tapetes
+																trasportador</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- productos de hule -->
+                                        <!-- Servicios-->
+                                        <li>
+                                            <a href="blog-right.html">Servicios</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="blog-single-video-right.html">Recolección de residuos</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="blog-single-video-right.html">Hule</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="plastico.html">Plastico</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="carton.html">Cartón</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="madera.html">Madera</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="vidrio.html">Vidrio</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="chatarra.html">Chatarra</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li>
+                                                    <a href="blog-single-video-right.html">Destrucció y
+														desnaturalización</a>
+                                                </li>
+                                                <li>
+                                                    <a href="blog-single-video-right.html">Molienda</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="blog-single-video-right.html">Plasticos</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="blog-single-video-right.html">Compra/Venta de plasticos</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="blog-single-video-right.html">ABS</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="blog-single-video-left.html">ASA</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="blog-single-video-right.html">NYLAN</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="blog-single-video-right.html">PP</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="blog-single-video-right.html">TPO</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="blog-single-video-right.html">PC</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li>
+                                                    <a href="blog-single-video-right.html">Renta de maquinaria</a>
+                                                </li>
+                                                <li>
+                                                    <a href="blog-single-video-right.html">Renta de transporte</a>
+                                                </li>
+                                                <li>
+                                                    <a href="blog-single-video-right.html">Permisos</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- Servicios-->
+
+                                        <!-- contacts -->
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="contact.html">Contact 1</a>
+                                                </li>
+                                                <li>
+                                                    <a href="contact2.html">Contact 2</a>
+                                                </li>
+                                                <li>
+                                                    <a href="contact3.html">Contact 3</a>
+                                                </li>
+                                                <li>
+                                                    <a href="contact4.html">Contact 4</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- eof contacts -->
+                                    </ul>
+                                </nav>
+                                <!-- eof main nav -->
+                                <!-- header toggler -->
+                                <span class="toggle_menu">
+									<span></span>
+                                </span>
+                            </div>
+
+                            <div class="header_right_buttons display_table_cell text-right hidden-xs">
+                                <div class="darklinks">
+                                    <a href="#" class="social-icon border-icon rounded-icon soc-facebook"></a>
+                                    <a href="#" class="social-icon border-icon rounded-icon soc-twitter"></a>
+                                    <a href="#" class="social-icon border-icon rounded-icon soc-google"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- <section class="page_breadcrumbs ds parallax section_padding_top_65 section_padding_bottom_65">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h2 class="highlight">Single Service</h2>
+                            <ol class="breadcrumb darklinks">
+                                <li>
+                                    <a href="service-single.html">
+							Home
+						</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pages</a>
+                                </li>
+                                <li class="active">Single Service</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+            <section class="ls section_padding_top_100 section_padding_bottom_100">
+                <div class="container">
+                    <div class="row columns_padding_25 columns_margin_bottom_20">
+                        <div class="col-md-6">
+                            <img src="img/parallax/vidrio.jpg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="section_header with_icon">
+                                VIDRIO
+                            </h2>
+                            <p>
+                                <strong>¿Qué se puede tirar en el contenedor de vidrio?</strong>
+                            </p>
+                            <p> <strong> Sí:</strong> botellas, tarros, frascos.</p>
+                            <p><strong>No:</strong> tapones o tapas (deben depositarse en el contenedor amarillo); cristales (vasos, copas o bombillas, deberás llevarlos al punto limpio más cercano); cerámica ni porcelana (tazas o platos que también deberás
+                                llevar a un punto limpio).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p> <strong> Proceso de Reciclar el Vidrio</strong></p>
+                            <ul>
+                                <li>Se separa y se clasifica el vidrio por color y elementos.</li>
+                                <li>Se retira todo el material diferente al vidrio.</li>
+                                <li>El vidrio es triturado y mezclado con arena, hidróxido de sodio y caliza, para fabricar nuevos productos.</li>
+                            </ul>
+                            <p>No obstante, existen otros procesos de reciclaje del vidrio que no se llevan a cabo en las plantas de reciclaje. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="page_contact ds ms parallax section_padding_top_50 section_padding_bottom_30 columns_padding_25" data-stellar-background-ratio="0.5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 text-center">
+                            <div class="widget">
+                                <a href="index.html" class="logo bg_logo bottommargin_25">
+                                    <img src="images\log.png" alt="" />
+                                    <span class="logo_text">
+										<span class="big">Grupo</span>
+                                    <span class="small-text">BUU</span>
+                                    </span>
+                                </a>
+                                <p>
+                                    Empresa que se dedica a la recolección de residuos para apoyar al cuidado del medio ambiente y darle un nuevo uso.
+                                </p>
+                                <div class="line-height-thin">
+                                    <div class="media small-teaser inline-block margin_0">
+                                        <div class="media-left media-middle">
+                                            <i class="fa fa-map-marker highlight2" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body media-middle grey">
+                                            Herreros 246, El Coecillo, 37260 León, Gto.
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="media small-teaser inline-block margin_0">
+                                        <div class="media-left media-middle">
+                                            <i class="fa fa-phone highlight2" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body media-middle grey">
+                                            477 713 3773
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="media small-teaser inline-block margin_0">
+                                        <div class="media-left media-middle">
+                                            <i class="fa fa-map-marker highlight2" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body media-middle highlightlinks">
+                                            <a href="#"><span class="_cf_email_"
+													data-cfemail="ed8a828a9f888883ad9e989d9d829f99c38e8280">[email&#160;protected]</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="darklinks topmargin_20">
+                                    <a href="#" class="social-icon border-icon rounded-icon soc-facebook"></a>
+                                    <a href="#" class="social-icon border-icon rounded-icon soc-twitter"></a>
+                                    <a href="#" class="social-icon border-icon rounded-icon soc-google"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-12 text-center">
+                            <div class="widget widget_contact topmargin_10">
+                                <h3>Búsquedas popurales</h3>
+
+                                <div class="media-body media-middle grey">
+                                    <a href="shop-right.html">Mascotas</a>
+                                </div> <br>
+                                <div class="media-body media-middle grey">
+                                    <a href="gallery-carousel.html">Suelas TEGO</a>
+                                </div> <br>
+                                <div class="media-body media-middle grey">
+                                    <a href="">Servicios</a>
+                                </div>
+                                <!-- <form class="contact-form topmargin_45" method="post" action="./">
+                                    <p class="contact-form-name">
+                                        <label for="footer-name">Name <span class="required">*</span></label>
+                                        <input type="text" aria-required="true" size="30" value="" name="name" id="footer-name" class="form-control text-center" placeholder="Full Name" />
+                                    </p>
+                                    <p class="contact-form-email">
+                                        <label for="footer-email">Email <span class="required">*</span></label>
+                                        <input type="email" aria-required="true" size="30" value="" name="email" id="footer-email" class="form-control text-center" placeholder="Email Address" />
+                                    </p>
+                                    <p class="contact-form-message">
+                                        <label for="footer-message">Message</label>
+                                        <textarea aria-required="true" rows="3" cols="45" name="message" id="footer-message" class="form-control text-center" placeholder="Message"></textarea>
+                                    </p>
+                                    <p class="footer_contact-form-submit topmargin_30">
+                                        <button type="submit" id="footer_contact_form_submit" name="contact_submit" class="theme_button color1 wide_button">
+											Send Message
+										</button>
+                                    </p>
+                                </form> -->
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </footer>
+
+            <section class="ls page_copyright section_padding_15">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <p class="small-text small-spacing grey">&copy; Copyright GRUPO BUU</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!-- eof #box_wrapper -->
+    </div>
+    <!-- eof #canvas -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="js\compressed.js"></script>
+    <script src="js\main.js"></script>
+
+
+</body>
+
+</html>
